@@ -27,7 +27,7 @@ class EstateProperty(models.Model):
         # ...
         }
         invoice = self.env['account.move'].create(invoice_values)
-        # Tercer paso: agregar líneas de factura
+        # Tercer paso: agregar líneas de factura 
         invoice_line_1 = {
             'name': '6% del precio de venta',
             'quantity': 1,
